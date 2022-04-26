@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Group Test">
+        <classes>
+            <class name="Tests._06Groups"/>    <!-- çalışacak class'ların yazıldığı bölüm
+                 test6 da smoke test ama gruplandırma olmadığı için çalışmadı -->
+        </classes>
+    </test>
+
+    <test name="Intro Test">
+        <classes>
+            <class name="Tests._05Intro"></class>
+            <!-- Başka bir class'ı test etmek istiyorsak daha önce biten testin altına tekrar test açarız <classes ve class olarak devam ederiz -->
+        </classes>
+    </test>
+</suite>

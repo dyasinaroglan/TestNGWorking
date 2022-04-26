@@ -28,7 +28,7 @@ public class _05Intro {
     @Test
     public void testIntro1(){
         System.out.println("test 1");
-        
+
     }
     @Test
     public void testIntro2(){

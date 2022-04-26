@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Test1">
+        <groups>
+            <run>
+                <exclude name="Regression"/>
+                <exclude name="SmokeTest"></exclude>   <!-- iki grubuda çalıştırma dedin fakat iki grupta olmayan bir tane test var
+                o da test6 sen iki grubu da çalıştırma dediğinde iki gruptada olmayan test6 çalıştı -->
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests._06Groups">
+            </class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <groups>
+            <run>
+                <include name="SmokeTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests._06Groups">
+                <methods>
+                    <exclude name="test3"></exclude>
+                </methods>
+            </class>
+        </classes>
+         </test>
+</suite>
