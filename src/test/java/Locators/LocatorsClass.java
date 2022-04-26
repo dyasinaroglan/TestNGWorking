@@ -30,5 +30,12 @@ public interface LocatorsClass {
     By lSubmit = By.cssSelector("input[type='submit']");
     By contacUsMessage = By.cssSelector("#content>h1");
 
+    By lSpecials = By.linkText("Specials");
+    By lprice = By.xpath("//span[@class='price-old']");
+    By lproducts = By.cssSelector("div.product-thumb");
+
+    By lSearch = By.cssSelector("input[name='search']");
+    By lMacProducts = By.cssSelector("div[class='caption']");
+
 
 }
