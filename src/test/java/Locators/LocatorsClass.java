@@ -37,5 +37,9 @@ public interface LocatorsClass {
     By lSearch = By.cssSelector("input[name='search']");
     By lMacProducts = By.cssSelector("div[class='caption']");
 
+    By lemail = By.id("input-email");
+    By lpassword = By.id("input-password");
+    By lLoginButton = By.cssSelector("input[class='btn btn-primary']");
+
 
 }

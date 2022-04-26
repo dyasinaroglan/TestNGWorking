@@ -62,4 +62,11 @@ public class ParentClass {
         sleepTo(1000);
         driver.quit();
     }
+    public void logOut(){
+        By lmyAccount = By.cssSelector("li[class='dropdown'] a[title='My Account']");
+        By lLogOut = By.linkText("Logout");
+
+        clickTo(lmyAccount);
+        clickTo(lLogOut);
+    }
 }

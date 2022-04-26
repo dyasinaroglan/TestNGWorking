@@ -11,13 +11,19 @@ import org.testng.annotations.BeforeClass;
 public class Driver {
 
     public static ThreadLocal<WebDriver> drivers = new ThreadLocal<>();
+    public static ThreadLocal<Browsers> browserNames = new ThreadLocal<>();
 
 
-    @BeforeClass
     public static WebDriver beforeClass(){
         return Driver.beforeClass(Browsers.CHROME);
     }
+
+
     public static WebDriver beforeClass(Browsers browsers){
+
+        if(drivers.get()== null){
+            browserNames.set(browsers);
+        }
 
         if(drivers.get() == null){
             switch (browsers){
@@ -36,7 +42,7 @@ public class Driver {
         }
         return drivers.get();
     }
-    @AfterClass
+
     public static void afterClass() throws InterruptedException {
         Thread.sleep(1000);
         if(drivers.get() != null){
