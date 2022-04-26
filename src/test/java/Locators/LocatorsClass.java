@@ -24,5 +24,11 @@ public interface LocatorsClass {
     By lMyAccount = By.xpath("(//div[@class='list-group'])[1]/a[text()='My Account']");
     By lAdressBook = By.xpath("(//div[@class='list-group'])[1]/a[text()='Address Book']");
     By lDeleteList = By.xpath("//td[@class='text-right']/a[text()='Delete']");
+    //By lContactUs = By.xpath("(//div[@class='row'])[3]/div[@class='col-sm-3'][2]//li[1]");
+    By lContactUs = By.linkText("Contact Us");
+    By lenquiry = By.id("input-enquiry");
+    By lSubmit = By.cssSelector("input[type='submit']");
+    By contacUsMessage = By.cssSelector("#content>h1");
+
 
 }
