@@ -1,4 +1,4 @@
-package Tests;
+package Tests1;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import utils.ParentClass;
 
 import java.util.List;
-import java.util.Locale;
 
 import static Locators.LocatorsClass.*;
 

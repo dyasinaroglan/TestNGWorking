@@ -1,14 +1,10 @@
-package Tests;
+package Tests1;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ParentClass;
-
-import javax.tools.Tool;
-import java.util.Locale;
 
 import static Locators.LocatorsClass.*;
 

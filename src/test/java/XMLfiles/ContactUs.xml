@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="ContactUs">
         <classes>
-            <class name="Tests._07ContactUs">
+            <class name="Tests1._07ContactUs">
              <parameter name="enquiry" value="Şampiyon Galatasaray"></parameter>
             </class>
         </classes>

@@ -5,7 +5,7 @@
         <parameter name="productName" value="Mac"></parameter>
         <parameter name="browsers" value="CHROME"></parameter>
         <classes>
-            <class name="Tests._09SearchFunctionality">
+            <class name="Tests1._09SearchFunctionality">
             </class>
         </classes>
     </test>
@@ -14,7 +14,7 @@
         <parameter name="productName" value="Samsung"></parameter>
         <parameter name="browsers" value="EDGE"></parameter>
         <classes>
-            <class name="Tests._09SearchFunctionality"></class>
+            <class name="Tests1._09SearchFunctionality"></class>
         </classes>
     </test>
 </suite>

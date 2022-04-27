@@ -1,8 +1,6 @@
-package Tests;
+package Tests1;
 
-import com.beust.jcommander.ParameterException;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ParentClass;

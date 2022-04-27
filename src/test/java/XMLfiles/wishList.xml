@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="WishList">
         <parameter name="productName" value="ipod"></parameter>
         <classes>
-            <class name="Tests._13WishList">
+            <class name="Tests1._13WishList">
             </class>
         </classes>
     </test>

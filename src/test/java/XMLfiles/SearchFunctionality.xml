@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="Search">
         <parameter name="productName" value="Mac"></parameter>
         <classes>
-            <class name="Tests._09SearchFunctionality">
+            <class name="Tests1._09SearchFunctionality">
             </class>
         </classes>
     </test>
