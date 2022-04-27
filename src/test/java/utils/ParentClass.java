@@ -69,4 +69,7 @@ public class ParentClass {
         clickTo(lmyAccount);
         clickTo(lLogOut);
     }
+    public static int randomSayı(int size){
+        return (int) (Math.random()*size);
+    }
 }

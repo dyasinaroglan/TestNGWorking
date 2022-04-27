@@ -53,5 +53,10 @@ public interface LocatorsClass {
     By lConfirmOrder = By.id("button-confirm");
     By lMessageOrder = By.xpath("//div[@id='content']/h1");
 
+    By lipodProducts = By.cssSelector("div[class='caption'] h4");
+    By lAddToWish = By.cssSelector("button[data-original-title='Add to Wish List']");
+    By lAddwishListButton = By.cssSelector("a[title='Wish List (1)']");
+    By lTableNames = By.xpath("td[class='text-left']");
+
 
 }
