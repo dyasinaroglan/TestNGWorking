@@ -7,6 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 public class Driver {
 
@@ -14,11 +15,14 @@ public class Driver {
     public static ThreadLocal<Browsers> browserNames = new ThreadLocal<>();
 
 
+
     public static WebDriver beforeClass(){
         return Driver.beforeClass(Browsers.CHROME);
     }
 
 
+    @BeforeClass
+    @Parameters("browsers")
     public static WebDriver beforeClass(Browsers browsers){
 
         if(drivers.get()== null){
@@ -42,7 +46,7 @@ public class Driver {
         }
         return drivers.get();
     }
-
+    @AfterClass
     public static void afterClass() throws InterruptedException {
         Thread.sleep(1000);
         if(drivers.get() != null){
@@ -50,4 +54,5 @@ public class Driver {
             drivers.set(null);
         }
     }
+
 }

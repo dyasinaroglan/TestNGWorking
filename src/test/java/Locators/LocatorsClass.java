@@ -36,10 +36,22 @@ public interface LocatorsClass {
 
     By lSearch = By.cssSelector("input[name='search']");
     By lMacProducts = By.cssSelector("div[class='caption']");
+    By lsearchButton = By.cssSelector("span[class='input-group-btn']");
 
     By lemail = By.id("input-email");
     By lpassword = By.id("input-password");
     By lLoginButton = By.cssSelector("input[class='btn btn-primary']");
+
+    By lShopingCart = By.xpath("//span[text()='Shopping Cart']");
+    By lAddToCart = By.xpath("(//div[@class='button-group'])/button//span[text()='Add to Cart']");
+    By lCheckOut = By.cssSelector("div[class='pull-right']");
+    By lContinueButtonCheckOut = By.id("button-payment-address");
+    By lContinueButtonCheckOut1 = By.id("button-shipping-address");
+    By lContinueButtonCheckOut2 = By.id("button-shipping-method");
+    By lcheckBox = By.cssSelector("input[type='checkbox']");
+    By lContinueButtonCheckOut3 = By.id("button-payment-method");
+    By lConfirmOrder = By.id("button-confirm");
+    By lMessageOrder = By.xpath("//div[@id='content']/h1");
 
 
 }
