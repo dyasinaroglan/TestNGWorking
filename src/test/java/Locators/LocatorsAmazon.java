@@ -1,9 +1,9 @@
 package Locators;
 
 import org.openqa.selenium.By;
-import utils.ParentClass;
 
 public interface LocatorsAmazon {
+
     //Amazon Locator
     String url = "https://www.amazon.com/";
     By lChangeAdress = By.xpath("(//span[@class='a-button-inner'])[1]");
@@ -31,8 +31,4 @@ public interface LocatorsAmazon {
     By lCalculateCosts = By.id("pc_calculate_costs");
     By lPurchaseButton = By.id("purchase_cash");
     By lForeignCurrencyMessage = By.cssSelector("div[id='alert_content']");
-
-
-
-
 }

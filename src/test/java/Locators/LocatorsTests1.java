@@ -2,7 +2,7 @@ package Locators;
 
 import org.openqa.selenium.By;
 
-public interface LocatorsClass1 {
+public interface LocatorsTests1 {
 
     String url = "http://opencart.abstracta.us/index.php?route=common/home";
 
@@ -57,6 +57,4 @@ public interface LocatorsClass1 {
     By lAddToWish = By.cssSelector("button[data-original-title='Add to Wish List']");
     By lAddwishListButton = By.cssSelector("a[title='Wish List (1)']");
     By lTableNames = By.xpath("td[class='text-left']");
-
-
 }

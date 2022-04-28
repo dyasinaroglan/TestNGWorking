@@ -8,7 +8,7 @@ import utils.ParentClass;
 import java.util.ArrayList;
 import java.util.List;
 
-import static Locators.LocatorsClass1.*;
+import static Locators.LocatorsTests1.*;
 
 public class _01ValidateMenu extends ParentClass {
 
