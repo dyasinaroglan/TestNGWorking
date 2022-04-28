@@ -37,25 +37,23 @@ public class _03HomeWorkSaucedemo extends ParentClass {
         select.selectByVisibleText("Price (low to high)");
 
         List<WebElement> priceList = driver.findElements(lPriceList); //öncelikle fiyatları bir listeye attık
-        List<String> priceString = new ArrayList<>();
 
+        List<String> stringPrice = new ArrayList<>();
         for (WebElement s : priceList) {
-            priceString.add(s.getText()); //sonra bunları String bir ArrayList'e attık 122.59$ şeklinde
+            stringPrice.add(s.getText());
         }
-        List<Double> priceDouble = new ArrayList<>();
+        List<Double> doublePrice = new ArrayList<>();
 
-        for (int i = 0; i < priceString.size(); i++) {
-            priceDouble.add(Double.parseDouble(priceString.get(i).replace("$","")));
-            //sonra bunları $ dan kurtarıcaz ve Double bir ArrayList'in içine atacağız
+        for (int i = 0; i < stringPrice.size(); i++) {
+            doublePrice.add(Double.parseDouble(stringPrice.get(i).replace("$","")));
         }
-        for (int i = 1; i < priceDouble.size() ; i++) {
-            if(priceDouble.get(i-1)<=priceDouble.get(i)){
+        for (int i = 1; i < doublePrice.size(); i++) {
+            if(doublePrice.get(i-1) <= doublePrice.size()){
                 System.out.println("Test Pass");
             }else {
-                System.out.println("Test Failed");
+                System.out.println("Test Fail");
             }
         }
-
     }
 }
 
