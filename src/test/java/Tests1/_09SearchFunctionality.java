@@ -11,7 +11,7 @@ import utils.ParentClass;
 import java.util.List;
 import java.util.Locale;
 
-import static Locators.LocatorsClass1.*;
+import static Locators.LocatorsTests1.*;
 
 public class _09SearchFunctionality extends ParentClass {
 

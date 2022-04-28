@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ParentClass;
 
-import static Locators.LocatorsClass1.*;
+import static Locators.LocatorsTests1.*;
 
 public class _03EditAccount extends ParentClass {
 

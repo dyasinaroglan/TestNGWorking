@@ -7,7 +7,7 @@ import utils.ParentClass;
 
 import java.util.List;
 
-import static Locators.LocatorsClass1.*;
+import static Locators.LocatorsTests1.*;
 
 public class _04AdressFunctionality extends ParentClass {
 
