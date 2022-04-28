@@ -2,7 +2,7 @@ package Locators;
 
 import org.openqa.selenium.By;
 
-public interface LocatorsClass {
+public interface LocatorsClass1 {
 
     String url = "http://opencart.abstracta.us/index.php?route=common/home";
 

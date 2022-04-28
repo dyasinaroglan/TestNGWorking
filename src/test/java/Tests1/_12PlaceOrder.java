@@ -10,7 +10,7 @@ import utils.ParentClass;
 
 import java.util.List;
 
-import static Locators.LocatorsClass.*;
+import static Locators.LocatorsClass1.*;
 
 public class _12PlaceOrder extends ParentClass {
 

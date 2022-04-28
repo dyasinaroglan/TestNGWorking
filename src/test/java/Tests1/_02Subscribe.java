@@ -6,7 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import utils.ParentClass;
 
-import static Locators.LocatorsClass.*;
+import static Locators.LocatorsClass1.*;
 
 public class _02Subscribe extends ParentClass {
 

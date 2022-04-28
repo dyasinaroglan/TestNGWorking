@@ -3,7 +3,7 @@ package Tests1;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utils.ParentClass;
-import static Locators.LocatorsClass.*;
+import static Locators.LocatorsClass1.*;
 
 public class _10DataProvider extends ParentClass {
 

@@ -8,7 +8,7 @@ import utils.ParentClass;
 
 import java.util.Locale;
 
-import static Locators.LocatorsClass.*;
+import static Locators.LocatorsClass1.*;
 
 public class _07ContactUs extends ParentClass {
 
