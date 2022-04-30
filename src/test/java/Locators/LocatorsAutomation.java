@@ -14,4 +14,10 @@ public interface LocatorsAutomation {
 
     By lfivethProduct = By.xpath("(//img[@class='replace-2x img-responsive'])[5]");
     By lfivethAddToCartClick = By.xpath("//a[@data-id-product='5']");
+
+    By lcart = By.cssSelector("a[title='View my shopping cart']");
+    By lCartList = By.cssSelector("a[class='cart-images']");
+
+    By lcheckOut = By.cssSelector("p[class='cart-buttons'] a");
+    By lTotalPrice = By.cssSelector("span[id='total_price']");
 }
