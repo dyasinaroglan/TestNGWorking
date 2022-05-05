@@ -17,7 +17,7 @@ import static Locators.LocatorsAutomation.*;
 public class _10HomeWork_Automation extends ParentClass {
 
     @BeforeTest
-    public void beforeTest(){
+    public void beforeTest()    {
         gotoSite(url);
     }
     @Test

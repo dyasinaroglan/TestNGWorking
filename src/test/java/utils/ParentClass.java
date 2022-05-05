@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class ParentClass {
 
-    protected WebDriver driver;
+    protected WebDriver     driver;
     protected WebDriverWait wait;
 
 
